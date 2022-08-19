@@ -16,16 +16,16 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- Шапка сайту -->
+    <!-- ------------------------------------Шапка сайту------------------------------------ -->
     <header class="header">
       <div class="container">
         <nav class="navigation">
-          <!-- Логотип -->
+          <!-- ------------------------------------Логотип -->
           <a href="./index.html" class="logo">
             <span class="logo-web">Web</span><span class="logo-black">Studio</span>
           </a>
 
-          <!-- Навігація -->
+          <!-- ------------------------------------Навігація -->
           <ul class="nav-list">
             <li class="nav-item"><a href="./index.html" class="nav current">Студія</a></li>
             <li class="nav-item"><a href="./portfolio.html" class="nav">Портфоліо</a></li>
@@ -33,49 +33,77 @@
           </ul>
         </nav>
 
+        <!-- ------------------------------------Зв'язок -->
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="mailto:info@devstudio.com" class="nav contact">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="nav contact">
+              <svg class="header-icon" width="16px" height="12px">
+                <use href="./images/icons.svg#envelope"></use></svg
+              >info@devstudio.com</a
+            >
           </li>
           <li class="nav-item">
-            <a href="tel:+380961111111" class="nav contact">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="nav contact">
+              <svg class="header-icon" width="10px" height="16px">
+                <use href="./images/icons.svg#smartphone"></use></svg
+              ><span class="phone">+38 096 111 11 11</span></a
+            >
           </li>
         </ul>
       </div>
     </header>
 
-    <!-- Головний контент сторінки -->
+    <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-Головний контент сторінки-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
     <main>
-      <!-- Ефективні рішення для вашого бізнесу -->
+      <!-- -----------------Ефективні рішення для вашого бізнесу------------------- -->
       <section class="hero section">
         <h1 class="heading">Ефективні рішення для<br />вашого бізнесу</h1>
         <button type="button" class="hero-btn">Замовити послугу</button>
       </section>
 
-      <!-- Особливості -->
+      <!-- ------------------------------------Особливості------------------------------------ -->
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Особливості</h2>
           <ul class="features">
+            <!-- ------------------------------------ -->
             <li class="feature">
+              <svg class="feature-icon">
+                <use href="./images/icons.svg#group-1" width="270px" height="120px"></use>
+              </svg>
               <h3 class="feature-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="feature-descr">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
+
+            <!-- ------------------------------------ -->
             <li class="feature">
+              <svg class="feature-icon">
+                <use href="./images/icons.svg#group-2" width="270px" height="120px"></use>
+              </svg>
               <h3 class="feature-title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="feature-descr">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
+
+            <!-- ------------------------------------ -->
             <li class="feature">
+              <svg class="feature-icon">
+                <use href="./images/icons.svg#group-3" width="270px" height="120px"></use>
+              </svg>
               <h3 class="feature-title">ПЛАНУВАННЯ</h3>
               <p class="feature-descr">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
+
+            <!-- ------------------------------------ -->
             <li class="feature">
+              <svg class="feature-icon">
+                <use href="./images/icons.svg#group-4" width="270px" height="120px"></use>
+              </svg>
               <h3 class="feature-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="feature-descr">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
@@ -85,7 +113,7 @@
         </div>
       </section>
 
-      <!-- Чим ми займаємося -->
+      <!-- ------------------------------------Чим ми займаємося------------------------------------ -->
       <section class="doing section">
         <div class="container">
           <h2 class="doing-title">Чим ми займаємося</h2>
@@ -121,10 +149,11 @@
         </div>
       </section>
 
-      <!-- Наша команда -->
+      <!-- ------------------------------------Наша команда------------------------------------ -->
       <section class="team section">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
+          <!-- ------------------------------------Ігор Дем'яненко -->
           <ul class="team-list">
             <li class="team-member">
               <img
@@ -139,13 +168,67 @@
                 <p class="member-position">Product Designer</p>
 
                 <ul class="network-list">
-                  <li class="network-item"><a href="" class="network">000</a></li>
-                  <li class="network-item"><a href="" class="network">000</a></li>
-                  <li class="network-item"><a href="" class="network">000</a></li>
-                  <li class="network-item"><a href="" class="network">000</a></li>
+                  <li class="network-item">
+                    <a
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="member-network"
+                      width="44px"
+                      height="44px"
+                    >
+                      <svg class="team-icon">
+                        <use href="./images/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="network-item">
+                    <a
+                      href="https://twitter.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="member-network"
+                      width="44px"
+                      height="44px"
+                    >
+                      <svg class="team-icon">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="network-item">
+                    <a
+                      href="https://www.facebook.com/"
+                      class="member-network"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      width="44px"
+                      height="44px"
+                    >
+                      <svg class="team-icon">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="network-item">
+                    <a
+                      href="https://www.linkedin.com/"
+                      class="member-network"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      width="44px"
+                      height="44px"
+                    >
+                      <svg class="team-icon">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </li>
+
+            <!-- ------------------------------------Ольга Рєпіна -->
             <li class="team-member">
               <img
                 src="./images/team-2.jpg"
@@ -159,13 +242,67 @@
                 <p class="member-position">Frontend Developer</p>
 
                 <ul class="network-list">
-                  <li class="network-item"><a href="" class="network">000</a></li>
-                  <li class="network-item"><a href="" class="network">000</a></li>
-                  <li class="network-item"><a href="" class="network">000</a></li>
-                  <li class="network-item"><a href="" class="network">000</a></li>
+                  <li class="network-item">
+                    <a
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="member-network"
+                      width="44px"
+                      height="44px"
+                    >
+                      <svg class="team-icon">
+                        <use href="./images/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="network-item">
+                    <a
+                      href="https://twitter.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="member-network"
+                      width="44px"
+                      height="44px"
+                    >
+                      <svg class="team-icon">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="network-item">
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="member-network"
+                      width="44px"
+                      height="44px"
+                    >
+                      <svg class="team-icon">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="network-item">
+                    <a
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="member-network"
+                      width="44px"
+                      height="44px"
+                    >
+                      <svg class="team-icon">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </li>
+
+            <!-- ------------------------------------Микола Тарасов -->
             <li class="team-member">
               <img
                 src="./images/team-3.jpg"
@@ -179,13 +316,67 @@
                 <p class="member-position">Marketing</p>
 
                 <ul class="network-list">
-                  <li class="network-item"><a href="" class="network">000</a></li>
-                  <li class="network-item"><a href="" class="network">000</a></li>
-                  <li class="network-item"><a href="" class="network">000</a></li>
-                  <li class="network-item"><a href="" class="network">000</a></li>
+                  <li class="network-item">
+                    <a
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="member-network"
+                      width="44px"
+                      height="44px"
+                    >
+                      <svg class="team-icon">
+                        <use href="./images/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="network-item">
+                    <a
+                      href="https://twitter.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="member-network"
+                      width="44px"
+                      height="44px"
+                    >
+                      <svg class="team-icon">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="network-item">
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="member-network"
+                      width="44px"
+                      height="44px"
+                    >
+                      <svg class="team-icon">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="network-item">
+                    <a
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="member-network"
+                      width="44px"
+                      height="44px"
+                    >
+                      <svg class="team-icon">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </li>
+
+            <!-- ------------------------------------Михайло Єрмаков -->
             <li class="team-member">
               <img
                 src="./images/team-4.jpg"
@@ -199,10 +390,62 @@
                 <p class="member-position">UI Designer</p>
 
                 <ul class="network-list">
-                  <li class="network-item"><a href="" class="member-network">000</a></li>
-                  <li class="network-item"><a href="" class="member-network">000</a></li>
-                  <li class="network-item"><a href="" class="member-network">000</a></li>
-                  <li class="network-item"><a href="" class="member-network">000</a></li>
+                  <li class="network-item">
+                    <a
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="member-network"
+                      width="44px"
+                      height="44px"
+                    >
+                      <svg class="team-icon">
+                        <use href="./images/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="network-item">
+                    <a
+                      href="https://twitter.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="member-network"
+                      width="44px"
+                      height="44px"
+                    >
+                      <svg class="team-icon">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="network-item">
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="member-network"
+                      width="44px"
+                      height="44px"
+                    >
+                      <svg class="team-icon">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="network-item">
+                    <a
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="member-network"
+                      width="44px"
+                      height="44px"
+                    >
+                      <svg class="team-icon">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </li>
@@ -210,47 +453,81 @@
         </div>
       </section>
 
-      <!-- ПОСТІЙНІ КЛІЄНТИ -->
+      <!-- ------------------------------------ПОСТІЙНІ КЛІЄНТИ------------------------------------ -->
       <section class="clients section">
         <div class="container">
           <h2 class="clients-heading">Постійні клієнти</h2>
 
           <ul class="clients-list">
+            <!-- ------------------------------------ -->
             <li class="clients-item">
-              <a href="" class="client-link">000</a>
+              <a href="#" target="_blank" rel="noopener noreferrer" class="client-link">
+                <svg class="client-logo">
+                  <use href="./images/icons.svg#client-1" width="170px" height="92px"></use>
+                </svg>
+              </a>
             </li>
+
+            <!-- ------------------------------------ -->
             <li class="clients-item">
-              <a href="" class="client-link">000</a>
+              <a href="#" target="_blank" rel="noopener noreferrer" class="client-link">
+                <svg class="client-logo">
+                  <use href="./images/icons.svg#client-2" width="170px" height="92px"></use>
+                </svg>
+              </a>
             </li>
+
+            <!-- ------------------------------------ -->
             <li class="clients-item">
-              <a href="" class="client-link">000</a>
+              <a href="#" target="_blank" rel="noopener noreferrer" class="client-link">
+                <svg class="client-logo">
+                  <use href="./images/icons.svg#client-3" width="170px" height="92px"></use>
+                </svg>
+              </a>
             </li>
+
+            <!-- ------------------------------------ -->
             <li class="clients-item">
-              <a href="" class="client-link">000</a>
+              <a href="#" target="_blank" rel="noopener noreferrer" class="client-link">
+                <svg class="client-logo">
+                  <use href="./images/icons.svg#client-4" width="170px" height="92px"></use>
+                </svg>
+              </a>
             </li>
+
+            <!-- ------------------------------------ -->
             <li class="clients-item">
-              <a href="" class="client-link">000</a>
+              <a href="#" target="_blank" rel="noopener noreferrer" class="client-link">
+                <svg class="client-logo">
+                  <use href="./images/icons.svg#client-5" width="170px" height="92px"></use>
+                </svg>
+              </a>
             </li>
+
+            <!-- ------------------------------------ -->
             <li class="clients-item">
-              <a href="" class="client-link">000</a>
+              <a href="#" target="_blank" rel="noopener noreferrer" class="client-link">
+                <svg class="client-logo">
+                  <use href="./images/icons.svg#client-6" width="170px" height="92px"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
       </section>
     </main>
 
-    <!-- Підвал -->
+    <!-- ------------------------------------Підвал------------------------------------ -->
     <footer class="footer">
       <div class="container">
         <div class="first-footer-container">
-          <!-- Логотип -->
+          <!-- ------------------------------------Логотип -->
           <a href="./index.html" class="logo">
             <span class="logo-web">Web</span><span class="logo-white">Studio</span>
           </a>
-
           <address>
             <ul class="address-list">
-              <!-- Розташування -->
+              <!-- ------------------------------------Розташування -->
               <li>
                 <a
                   href="https://www.google.com.ua/maps/search/м.+київ+пр-т+лесі+українки+26/@50.4266707,30.5363676,17z/data=!3m1!4b1?hl=uk"
@@ -261,29 +538,76 @@
                   м. Київ, пр-т Лесі Українки, 26
                 </a>
               </li>
-
-              <!-- Контакти -->
+              <!-- ------------------------------------Контакти -->
               <li><a href="mailto:info@example.com" class="contact">info@example.com</a></li>
               <li><a href="tel:+380991111111" class="contact">+38 099 111 11 11</a></li>
             </ul>
           </address>
         </div>
 
-        <!-- Приєднуйтесь -->
+        <!-- ------------------------------------Приєднуйтесь------------------------------------ -->
         <div class="second-footer-container">
           <h2 class="footer-networks-title">приєднуйтесь</h2>
           <ul class="footer-networks-list">
+            <!-- _______________instagram -->
             <li class="footer-network-item">
-              <a href="" class="footer-link">000</a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-link"
+                width="44px"
+                height="44px"
+              >
+                <svg class="footer-soc-icon">
+                  <use href="./images/icons.svg#instagram" width="20px" height="20px"></use>
+                </svg>
+              </a>
             </li>
+            <!-- _______________twitter -->
             <li class="footer-network-item">
-              <a href="" class="footer-link">000</a>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-link"
+                width="44px"
+                height="44px"
+              >
+                <svg class="footer-soc-icon">
+                  <use href="./images/icons.svg#twitter" width="20px" height="20px"></use>
+                </svg>
+              </a>
             </li>
+            <!-- _______________facebook -->
             <li class="footer-network-item">
-              <a href="" class="footer-link">000</a>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-link"
+                width="44px"
+                height="44px"
+              >
+                <svg class="footer-soc-icon">
+                  <use href="./images/icons.svg#facebook" width="20px" height="20px"></use>
+                </svg>
+              </a>
             </li>
+            <!-- _______________linkedin -->
             <li class="footer-network-item">
-              <a href="" class="footer-link">000</a>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-link"
+                width="44px"
+                height="44px"
+              >
+                <svg class="footer-soc-icon">
+                  <use href="./images/icons.svg#linkedin" width="20px" height="20px"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>

@@ -16,16 +16,16 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- Шапка сайту -->
+    <!-- ------------------------------------Шапка сайту------------------------------------ -->
     <header class="header">
       <div class="container">
         <nav class="navigation">
-          <!-- Логотип -->
+          <!-- ------------------------------------Логотип -->
           <a href="./index.html" class="logo">
             <span class="logo-web">Web</span><span class="logo-black">Studio</span>
           </a>
 
-          <!-- Навігація -->
+          <!-- ------------------------------------Навігація -->
           <ul class="nav-list">
             <li class="nav-item"><a href="./index.html" class="nav">Студія</a></li>
             <li class="nav-item"><a href="./portfolio.html" class="nav current">Портфоліо</a></li>
@@ -33,41 +33,51 @@
           </ul>
         </nav>
 
+        <!-- ------------------------------------Зв'язок -->
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="mailto:info@devstudio.com" class="nav contact">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="nav contact">
+              <svg class="header-icon" width="16px" height="12px">
+                <use href="./images/icons.svg#envelope"></use></svg
+              >info@devstudio.com</a
+            >
           </li>
           <li class="nav-item">
-            <a href="tel:+380961111111" class="nav contact">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="nav contact">
+              <svg class="header-icon" width="10px" height="16px">
+                <use href="./images/icons.svg#smartphone"></use></svg
+              ><span class="phone">+38 096 111 11 11</span></a
+            >
           </li>
         </ul>
       </div>
     </header>
 
-    <!-- Головний контент сторінки -->
+    <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-Головний контент сторінки-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
     <main>
       <section class="section">
         <div class="portfolio container">
           <h1 class="visually-hidden">Портфоліо</h1>
 
-          <!-- Фільтр (список кнопок) -->
+          <!-- ------------------------------------Фільтр------------------------------------ -->
           <ul class="filter">
+            <!-- ------------------------------------ -->
             <li>
               <button type="button" class="button">Усі</button>
             </li>
-
+            <!-- ------------------------------------ -->
             <li>
               <button type="button" class="button">Веб-сайти</button>
             </li>
-
+            <!-- ------------------------------------ -->
             <li>
               <button type="button" class="button">Додатки</button>
             </li>
-
+            <!-- ------------------------------------ -->
             <li>
               <button type="button" class="button">Дизайн</button>
             </li>
-
+            <!-- ------------------------------------ -->
             <li>
               <button type="button" class="button">Маркетинг</button>
             </li>
@@ -223,18 +233,17 @@
       </section>
     </main>
 
-    <!-- Підвал -->
+    <!-- ------------------------------------Підвал------------------------------------ -->
     <footer class="footer">
       <div class="container">
         <div class="first-footer-container">
-          <!-- Логотип -->
+          <!-- ------------------------------------Логотип -->
           <a href="./index.html" class="logo">
             <span class="logo-web">Web</span><span class="logo-white">Studio</span>
           </a>
-
           <address>
             <ul class="address-list">
-              <!-- Розташування -->
+              <!-- ------------------------------------Розташування -->
               <li>
                 <a
                   href="https://www.google.com.ua/maps/search/м.+київ+пр-т+лесі+українки+26/@50.4266707,30.5363676,17z/data=!3m1!4b1?hl=uk"
@@ -245,29 +254,76 @@
                   м. Київ, пр-т Лесі Українки, 26
                 </a>
               </li>
-
-              <!-- Контакти -->
+              <!-- ------------------------------------Контакти -->
               <li><a href="mailto:info@example.com" class="contact">info@example.com</a></li>
               <li><a href="tel:+380991111111" class="contact">+38 099 111 11 11</a></li>
             </ul>
           </address>
         </div>
 
-        <!-- Приєднуйтесь -->
+        <!-- ------------------------------------Приєднуйтесь------------------------------------ -->
         <div class="second-footer-container">
           <h2 class="footer-networks-title">приєднуйтесь</h2>
           <ul class="footer-networks-list">
+            <!-- _______________instagram -->
             <li class="footer-network-item">
-              <a href="" class="footer-link">000</a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-link"
+                width="44px"
+                height="44px"
+              >
+                <svg class="footer-soc-icon">
+                  <use href="./images/icons.svg#instagram" width="20px" height="20px"></use>
+                </svg>
+              </a>
             </li>
+            <!-- _______________twitter -->
             <li class="footer-network-item">
-              <a href="" class="footer-link">000</a>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-link"
+                width="44px"
+                height="44px"
+              >
+                <svg class="footer-soc-icon">
+                  <use href="./images/icons.svg#twitter" width="20px" height="20px"></use>
+                </svg>
+              </a>
             </li>
+            <!-- _______________facebook -->
             <li class="footer-network-item">
-              <a href="" class="footer-link">000</a>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-link"
+                width="44px"
+                height="44px"
+              >
+                <svg class="footer-soc-icon">
+                  <use href="./images/icons.svg#facebook" width="20px" height="20px"></use>
+                </svg>
+              </a>
             </li>
+            <!-- _______________linkedin -->
             <li class="footer-network-item">
-              <a href="" class="footer-link">000</a>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-link"
+                width="44px"
+                height="44px"
+              >
+                <svg class="footer-soc-icon">
+                  <use href="./images/icons.svg#linkedin" width="20px" height="20px"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
