@@ -11,7 +11,6 @@
   --portfolio-borders-color: #eeeeee;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
   --secondary-bg: #2f303a;
-  /* icons */
 }
 
 body {
@@ -20,7 +19,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Схований елемент */
+/* Сховані заголовки */
 .visually-hidden {
   display: none;
   /* position: absolute;
@@ -52,7 +51,7 @@ body {
   /* outline: 1px solid chartreuse; */
 }
 
-/* Власні відступи елементів */
+/* Скидання параметрів елементів */
 h1,
 h2,
 h3,
@@ -69,22 +68,11 @@ li {
   list-style: none;
 }
 
-/* Скинуті стилі списків з усіх сторінок */
-/* .nav-list,
-.features,
-.doing-list,
-.team-list,
-.filter,
-.pf-list,
-.address-list {
-  list-style: none;
-} */
-
 .image {
   display: block;
 }
 
-/*----------Шапка сайту----------*/
+/* --------------------Шапка сайту-------------------- */
 
 .header {
   border-bottom: 1px solid var(--header-border);
@@ -168,6 +156,7 @@ ul > .nav-item:not(:last-child) {
   align-items: center;
 }
 
+/* Іконки контактів в хедері */
 .header-icon {
   display: inline-block;
   margin-right: 10px;
@@ -179,8 +168,6 @@ a.contact:focus {
 }
 
 header .contact:hover .header-icon,
-header .contact:focus .header-icon,
-header .contact:focus .header-icon,
 header .contact:focus .header-icon {
   stroke: var(--blue-accent);
 }
@@ -189,7 +176,7 @@ header .contact:focus .header-icon {
   align-self: baseline;
 }
 
-/*----------Головний контент студії----------*/
+/* ----------Головний контент студії---------- */
 
 /*__________Герой*/
 
@@ -249,7 +236,7 @@ header .contact:focus .header-icon {
   color: inherit;
 }
 
-/*__________Особливості*/
+/* __________Особливості*/
 
 .features {
   display: flex;
@@ -295,7 +282,7 @@ header .contact:focus .header-icon {
   padding: 0;
 }
 
-/*__________Чим ми займаємося*/
+/* __________Чим ми займаємося */
 
 .doing.section {
   padding-top: 0;
@@ -330,7 +317,7 @@ header .contact:focus .header-icon {
   margin-right: 30px;
 }
 
-/*__________Наша команда*/
+/* __________Наша команда */
 
 .team {
   background-color: var(--bg-accent);
@@ -399,8 +386,6 @@ header .contact:focus .header-icon {
   margin-bottom: 16px;
 }
 
-/* svg-посилання */
-
 .network-list {
   display: flex;
   justify-content: center;
@@ -438,7 +423,7 @@ header .contact:focus .header-icon {
   background-color: var(--blue-accent);
 }
 
-/*__________Постійні клієнти*/
+/* __________ Постійні клієнти */
 
 .clients-heading {
   font-style: normal;
@@ -472,14 +457,14 @@ header .contact:focus .header-icon {
   fill: var(--blue-accent);
 }
 
-/*----------Головний контент портфоліо----------*/
+/* ----------Головний контент портфоліо---------- */
 
 .portfolio.container {
   display: flex;
   flex-direction: column;
 }
 
-/*__________Фільтр*/
+/* __________ Фільтр */
 
 .filter {
   display: flex;
@@ -514,7 +499,7 @@ header .contact:focus .header-icon {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/*__________Портфоліо*/
+/* __________ Портфоліо */
 
 .pf-list {
   margin-top: 50px;
@@ -553,7 +538,7 @@ header .contact:focus .header-icon {
   border-top: none;
 }
 
-/*----------Підвал----------*/
+/* ----------Підвал---------- */
 
 .footer {
   background-color: var(--secondary-bg);
