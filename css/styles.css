@@ -455,7 +455,7 @@ header .contact:focus .header-icon {
 
 /* ----------Головний контент портфоліо---------- */
 
-.portfolio.container {
+.portfolio {
   display: flex;
   flex-direction: column;
 }
