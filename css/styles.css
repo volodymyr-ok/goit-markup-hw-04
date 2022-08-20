@@ -247,15 +247,19 @@ header .contact:focus .header-icon {
   margin-right: 30px;
 }
 
-.feature {
+/* .feature {
   max-width: 270px;
   width: 100%;
-}
+} */
 
-.feature-icon {
+/* ---------------------Іконки фічей------- */
+
+.feature-icon-bg {
+  background-color: #f5f4fa;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  padding: 25px 100px;
 }
 
 .feature-title {
@@ -382,6 +386,8 @@ header .contact:focus .header-icon {
   margin-bottom: 16px;
 }
 
+/* ---------------------Іконки соц-мереж команди */
+
 .network-list {
   display: flex;
   justify-content: center;
@@ -419,8 +425,6 @@ header .contact:focus .header-icon {
   background-color: var(--blue-accent);
 }
 
-/* __________ Постійні клієнти */
-
 .clients-heading {
   font-style: normal;
   font-weight: 700;
@@ -432,6 +436,8 @@ header .contact:focus .header-icon {
 
   margin-bottom: 50px;
 }
+
+/* ---------------------Іконки постійних клієнтів */
 
 .clients-list {
   display: flex;
