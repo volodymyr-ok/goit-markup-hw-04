@@ -625,12 +625,13 @@ address .contact {
   align-items: center;
 }
 
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--blue-accent);
+}
+
 .footer-soc-icon {
   width: 20px;
   height: 20px;
   fill: #ffffff;
-}
-
-.footer-link:hover {
-  background-color: var(--blue-accent);
 }
